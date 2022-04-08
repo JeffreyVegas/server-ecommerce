@@ -20,10 +20,16 @@ app.use(cors(corsOptions));
 // routes
 const user = require("./routes/user");
 const product = require("./routes/product");
+const category = require("./routes/category");
 
 app.use("/api/v1", user);
 app.use("/api/v1", product);
+app.use("/api/v1", category);
 
 app.use(Errorhander);
 
 module.exports = app;
+
+/* 
+
+*/

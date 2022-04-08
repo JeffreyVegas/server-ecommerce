@@ -50,3 +50,5 @@ exports.getProducts = catchAsyncError(async (req, res, next) => {
     resultPerPage,
   });
 });
+
+exports.updateProducts = catchAsyncError(async (req, res) => {});
